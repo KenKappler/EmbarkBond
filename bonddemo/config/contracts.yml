@@ -1,0 +1,5 @@
+development:
+  bond:
+    args:
+      - 1000
+      - 500

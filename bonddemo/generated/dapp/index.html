@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Bond</title>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="js/app.min.js"></script>
+  </head>
+  <body>
+    <h3>Embark - Bond Demo</h3>
+	<div><br>Current ether balance: <span class="balance"></span></div>
+	<div><br>Current interest period: <span class="currentInterestPeriod"></span></div>
+	<div><br>Coupon Amount: <span class="couponAmount"></span></div>
+	<div><br>Redeemed?: <span class="redeemed"></span></div>
+	<div><br>bond balance in ether: <span class="bondBalance"></span></div>
+
+    <div>
+      <input type="text" class="recip" value="address">
+      <input type="text" class="amount" value="0">
+      <input type="text" class="coupon" value="0">
+      <button class="send">send transaction</button>
+    </div>
+
+    <div>
+      <input type="text" class="couponPI" value="0">
+      <button class="payInterest">payInterest</button>
+    </div>
+
+	<div>
+      <input type="text" class="stateCI" value="0">
+      <input type="text" class="amountCI" value="0">
+      <button class="claimInterest">claimInterest</button>
+    </div>
+
+	<div>
+      <button class="payRedemption">Pay Redemption</button>
+    </div>
+
+    	<div>
+      <button class="redeem">Redeem</button>
+    </div>
+
+    <div>
+      <button class="get">Get Value</button>
+      <br>Bonds in account is <span class="value"></span>
+    </div>
+
+    <div class="logs">
+    </div>
+  </body>
+</html>
